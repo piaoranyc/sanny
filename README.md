@@ -7,6 +7,7 @@ A Go-based tool that downloads all files from a web directory to a specified loc
 #exmaple
 single thread(default)
 .\sanny.exe -url "https://xfr139.larc.nasa.gov/sflops/Distribution/2025105001613_83698" -output "./my_downloads" 
+#example2
 mutithread
 .\sanny.exe -url "https://xfr139.larc.nasa.gov/sflops/Distribution/2025105001613_83698" -output "./my_downloads" -thread 8
 
